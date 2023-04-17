@@ -1,22 +1,35 @@
 /* media queries */
 
 body {
-  background-color: rebeccapurple;
+  background-color: red;
 }
-/* 
-@media only screen and (orientation: landscape) {
+body::before {
+  content: "mobile size";
+}
+
+@media screen and (min-width: 481px) {
   body {
-    background-color: slategray;
+    background-color: orange;
+  }
+  body::before {
+    content: "tablet size";
   }
 }
-@media only screen and (min-width: 1200px) {
+
+@media screen and (min-width: 768px) {
   body {
     background-color: yellow;
   }
-} */
+  body::before {
+    content: "small desktop size";
+  }
+}
 
-@media (width > 600px) {
+@media screen and (min-width: 1024px) {
   body {
     background-color: green;
+  }
+  body::before {
+    content: "large desktop size";
   }
 }
