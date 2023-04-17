@@ -1,1 +1,16 @@
 /* media queries */
+
+body {
+  background-color: rebeccapurple;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: slategray;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+}
