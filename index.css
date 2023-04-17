@@ -15,7 +15,7 @@ body {
   }
 } */
 
-@media (max-width: 600px) or (min-width: 1500px) {
+@media (width > 600px) {
   body {
     background-color: green;
   }
