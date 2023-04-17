@@ -3,14 +3,20 @@
 body {
   background-color: rebeccapurple;
 }
-
+/* 
 @media only screen and (orientation: landscape) {
   body {
     background-color: slategray;
   }
 }
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   body {
     background-color: yellow;
   }
 } */
+
+@media (max-width: 600px) or (min-width: 1500px) {
+  body {
+    background-color: green;
+  }
+}
